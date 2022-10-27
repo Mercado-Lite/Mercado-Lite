@@ -1,1 +1,1 @@
-# Mercado-Lite
+# Mercado Lite
