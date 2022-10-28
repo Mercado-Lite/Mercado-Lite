@@ -50,8 +50,10 @@ body {
   border-radius: var(--br-img-box);
 } */
 
-.pg3-star-rating-icon {
+.pg3-rating-star {
   color: var(--clr-star);
+  width: 30px;
+  height: 30px;
 }
 
 /* --------------------------- */
