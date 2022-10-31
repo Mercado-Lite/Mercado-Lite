@@ -8,6 +8,7 @@
     --font-color: #07484A;
 }
 
+
 .bg-color{
     background-color: var(--light-color);
 }
@@ -43,15 +44,16 @@
 
 .footer-text{
     font-family: var(--main-font);
-    color: var(--font-color);
+    color: var(--font-color) !important;
     font-size: 18px;
+    
 }
 
 .border-bottom{
     border-color: #07484a5b !important;
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
     .no-gap{
         gap: 0px !important;
     }
