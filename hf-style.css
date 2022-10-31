@@ -1,60 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-:root{
-    --main-font: 'Playfair Display', serif;
-    --logo-font: 'Poppins', sans-serif;
-    --light-color:  #C4C4C4;
-    --font-color: #07484A;
+:root {
+  --main-font: "Playfair Display", serif;
+  --logo-font: "Poppins", sans-serif;
+  --light-color: #c4c4c4;
+  --font-color: #07484a;
 }
 
-
-.bg-color{
-    background-color: var(--light-color);
+.bg-color {
+  background-color: var(--light-color);
 }
-.reverse{
-    display: flex;
-    flex-direction: row-reverse !important;
-}
-
-.red{
-    background-color: red;
+.reverse {
+  display: flex;
+  flex-direction: row-reverse !important;
 }
 
-.blue{
-    background-color: blue;
+.red {
+  background-color: red;
 }
 
-.box-shadow{
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.blue {
+  background-color: blue;
 }
 
-.header-text{
-    font-family: var(--main-font);
-    font-size: 20px !important;
-    color: var(--font-color);
+.box-shadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-logo{
-    font-family: var(--logo-font);
-    font-size: 20px;
-    letter-spacing: 0.01cm;
-    color: var(--font-color);
+.header-text {
+  font-family: var(--main-font);
+  font-size: 20px !important;
+  color: var(--font-color);
 }
 
-.footer-text{
-    font-family: var(--main-font);
-    color: var(--font-color) !important;
-    font-size: 18px;
-    
+.header-logo {
+  font-family: var(--logo-font);
+  font-size: 20px;
+  letter-spacing: 0.01cm;
+  color: var(--font-color);
 }
 
-.border-bottom{
-    border-color: #07484a5b !important;
+.footer-text {
+  font-family: var(--main-font);
+  color: var(--font-color) !important;
+  font-size: 18px;
+}
+
+.border-bottom {
+  border-color: #07484a5b !important;
 }
 
 @media only screen and (max-width: 1000px) {
-    .no-gap{
-        gap: 0px !important;
-    }
+  .no-gap {
+    gap: 0px !important;
+  }
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }

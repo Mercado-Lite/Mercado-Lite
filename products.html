@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Mercado Lite - Products by Category</title>
-    <meta name="description" content="Mercado Lite offers a large selection of unnecessary inventions.">
-    
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="hf-style.css">
-    <link rel="stylesheet" href="./css/pg2.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" 
-        rel="stylesheet"
+    <meta
+      name="description"
+      content="Mercado Lite offers a large selection of unnecessary inventions."
     />
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,95 +25,230 @@
       rel="stylesheet"
     />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
 
-</head>
-<body>
+    <link rel="stylesheet" href="css/pg3-reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="hf-style.css" />
+    <link rel="stylesheet" href="./css/pg2.css" />
+  </head>
+  <body>
     <!--#region HEADER -->
     <header>
-      <div class="container-fluid bg-color ">
-      <nav class="navbar navbar-expand-lg  box-shadow">
-        <div class="container-fluid col-10">
-          <a class="navbar-brand col-2 header-logo" href="index.html"><img src="./img/cart.png"> MERCADO LITE</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="header-text navbar-nav me-auto mb-2 mb-lg-0 col-4 no-gap gap-5 container-fluid">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="products.html">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="products.html">Categories</a>
-              </li>
-            </ul>
-            <div class="navbar-nav me-auto gap-4 reverse mb-2 mb-lg-0 col-3 container-fluid text-center">
-              <li class="nav-item">
-                <a class="nav-link" href="404.html"><img src="./img/login.png"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="404.html"><img src="./img/cart.png"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="404.html"><img src="./img/search.png"></a>
-              </li>
+      <div class="container-fluid bg-color">
+        <nav class="navbar navbar-expand-lg box-shadow">
+          <div class="container-fluid col-10">
+            <a class="navbar-brand col-2 header-logo" href="index.html"
+              ><img src="./img/cart.png" /> MERCADO LITE</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul
+                class="header-text navbar-nav me-auto mb-2 mb-lg-0 col-4 gap-5 no-gap container-fluid"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="products.html">Categories</a>
+                </li>
+              </ul>
+              <div
+                class="navbar-nav me-auto gap-4 reverse mb-2 mb-lg-0 col-3 container-fluid text-center"
+              >
+                <ul
+                  class="header-text navbar-nav me-auto mb-2 mb-lg-0 col-4 gap-5 no-gap container-fluid"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link" href="404.html"
+                      ><img src="./img/login.png"
+                    /></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="404.html"
+                      ><img src="./img/cart.png"
+                    /></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="404.html"
+                      ><img src="./img/search.png"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--#endregion HEADER -->
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center p-4 custom-font-display">Explore by Category</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="row custom-row-gap m-3">
+            <input
+              class="col-sm-12 border-0 rounded custom-font"
+              type="text"
+              placeholder="Search"
+            />
+            <div class="col-sm-12 custom-font">
+              <a class="custom-link" href="">Food</a>
+            </div>
+            <div class="col-sm-12 custom-font">
+              <a class="custom-link" href="">Cosmetics</a>
+            </div>
+            <div class="col-sm-12 custom-font">
+              <a class="custom-link" href="">Accessories</a>
+            </div>
+            <div class="col-sm-12 custom-font">
+              <a class="custom-link" href="">Technology</a>
+            </div>
+            <div class="col-sm-12 custom-font">
+              <a class="custom-link" href="">Furniture</a>
+            </div>
+            <div class="col-sm-12 custom-font">
+              <a class="custom-link" href="">Gadgets</a>
+            </div>
+            <div class="col-sm-12 custom-font">
+              <a class="custom-link" href="">Junk</a>
             </div>
           </div>
         </div>
-      </nav>
-    </div>
-  </header>
-  <!--#endregion HEADER -->
-        <div class="container">
-            <div class="row">
-                <h2 class="text-center p-4 custom-font-display">Explore by Category</h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="row custom-row-gap m-3">
-                        <input class="col-sm-12 border-0 rounded custom-font" type="text" placeholder="Search">
-                        <div class="col-sm-12 custom-font"><a class="custom-link" href="">Food</a></div>
-                        <div class="col-sm-12 custom-font"><a class="custom-link" href="">Cosmetics</a></div>
-                        <div class="col-sm-12 custom-font"><a class="custom-link" href="">Accessories</a></div>
-                        <div class="col-sm-12 custom-font"><a class="custom-link" href="">Technology</a></div>
-                        <div class="col-sm-12 custom-font"><a class="custom-link" href="">Furniture</a></div>
-                        <div class="col-sm-12 custom-font"><a class="custom-link" href="">Gadgets</a></div>
-                        <div class="col-sm-12 custom-font"><a class="custom-link" href="">Junk</a></div>
-                    </div>
-                </div>
 
-                <div class="col-sm-8">
-                    <div class="row custom-row-gap m-3 custom-border-left">
-                        <a class="col-sm-6 text-center" href="airpod-glasses.html"><img class="w-75 custom-image" src="./img/airpod-glasses.jpg" alt="Glasses held by an airpod"></a>
-                        <a class="col-sm-6 text-center" href="airtag-socks.html"><img class="w-75 custom-image" src="./img/airtag-socks.jpg" alt="Socks with airtags"></a> 
-                        <a class="col-sm-6 text-center" href="blind-glasses.html"><img class="w-75 custom-image" src="./img/blind-glasses.jpg" alt="Glasses with blinds"></a>
-                        <a class="col-sm-6 text-center" href="mask-spenders.html"><img class="w-75 custom-image" src="./img/mask-spenders.jpg" alt="Spenders for masks"></a>
-                        <a class="col-sm-6 text-center" href="gas-price-shield.html"><img class="w-75 custom-image" src="./img/gas-price-shield.jpg" alt="Shield for the gas price"></a>
-                        <a class="col-sm-6 text-center" href="mirror-selfie.html"><img class="w-75 custom-image" src="./img/mirror-selfie.jpg" alt="A mirror with a cellphone case for selfies"></a>
-                    </div>
-                </div>
-            </div>
+        <div class="col-sm-8">
+          <div class="row custom-row-gap m-3 custom-border-left">
+            <a class="col-sm-6 text-center" href="airpod-glasses.html"
+              ><img
+                class="w-75 custom-image"
+                src="./img/airpod-glasses.jpg"
+                alt="Glasses held by an airpod"
+            /></a>
+            <a class="col-sm-6 text-center" href="airtag-socks.html"
+              ><img
+                class="w-75 custom-image"
+                src="./img/airtag-socks.jpg"
+                alt="Socks with airtags"
+            /></a>
+            <a class="col-sm-6 text-center" href="blind-glasses.html"
+              ><img
+                class="w-75 custom-image"
+                src="./img/blind-glasses.jpg"
+                alt="Glasses with blinds"
+            /></a>
+            <a class="col-sm-6 text-center" href="mask-spenders.html"
+              ><img
+                class="w-75 custom-image"
+                src="./img/mask-spenders.jpg"
+                alt="Spenders for masks"
+            /></a>
+            <a class="col-sm-6 text-center" href="gas-price-shield.html"
+              ><img
+                class="w-75 custom-image"
+                src="./img/gas-price-shield.jpg"
+                alt="Shield for the gas price"
+            /></a>
+            <a class="col-sm-6 text-center" href="mirror-selfie.html"
+              ><img
+                class="w-75 custom-image"
+                src="./img/mirror-selfie.jpg"
+                alt="A mirror with a cellphone case for selfies"
+            /></a>
+          </div>
         </div>
-        <!--#region FOOTER-->
-        <footer class=" pb-3 bg-color footer-text pt-4">
-          <ul class="nav justify-content-center gap-5 no-gap">
-            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-            <li class="nav-item"><a href="products.html" class="nav-link px-2 text-muted">Products</a></li>
-            <li class="nav-item"><a href="ourcompany.html" class="nav-link px-2 text-muted">Our Company</a></li>
-            <li class="nav-item"><a href="https://github.com/Mercado-Lite/Mercado-Lite" target="_blank" class="nav-link px-2 text-muted">Github</a></li>
-            <li class="nav-item"><a href="https://github.com/Mercado-Lite/Mercado-Lite/blob/main/README.md" target="_blank" class="nav-link px-2 text-muted">About</a></li>
-          </ul>
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3 pt-3">
-            <li class="nav-item"><a href="https://www.linkedin.com/in/beatriz-tavernaro" target="_blank" class="nav-link px-2 text-muted"><img src="./img/linkedin.png" alt=""></a></li>
-            <li class="nav-item"><a href="https://www.linkedin.com/in/fabioksyamashita/" target="_blank" class="nav-link px-2 text-muted"><img src="./img/linkedin.png" alt=""></a></li>
-            <li class="nav-item"><a href="https://www.linkedin.com/in/felipe-fandrade/" target="_blank" class="nav-link px-2 text-muted"><img src="./img/linkedin.png" alt=""></a></li>
-          </ul>
-          <p class="text-center text-muted">© 2022 Front-End Estático - Ada / Safra</p>
-        </footer>
+      </div>
+    </div>
+    <!--#region FOOTER-->
+    <footer class="pb-3 bg-color footer-text pt-4">
+      <ul class="nav justify-content-center gap-5 no-gap">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link px-2 text-muted">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="products.html" class="nav-link px-2 text-muted">Products</a>
+        </li>
+        <li class="nav-item">
+          <a href="ourcompany.html" class="nav-link px-2 text-muted"
+            >Our Company</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="https://github.com/Mercado-Lite/Mercado-Lite"
+            target="_blank"
+            class="nav-link px-2 text-muted"
+            >Github</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="https://github.com/Mercado-Lite/Mercado-Lite/blob/main/README.md"
+            target="_blank"
+            class="nav-link px-2 text-muted"
+            >About</a
+          >
+        </li>
+      </ul>
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3 pt-3">
+        <li class="nav-item">
+          <a
+            href="https://www.linkedin.com/in/beatriz-tavernaro"
+            target="_blank"
+            class="nav-link px-2 text-muted"
+            ><img src="./img/linkedin.png" alt=""
+          /></a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="https://www.linkedin.com/in/fabioksyamashita/"
+            target="_blank"
+            class="nav-link px-2 text-muted"
+            ><img src="./img/linkedin.png" alt=""
+          /></a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="https://www.linkedin.com/in/felipe-fandrade/"
+            target="_blank"
+            class="nav-link px-2 text-muted"
+            ><img src="./img/linkedin.png" alt=""
+          /></a>
+        </li>
+      </ul>
+      <p class="text-center text-muted">
+        © 2022 Front-End Estático - Ada / Safra
+      </p>
+    </footer>
     <!--#endregion Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
