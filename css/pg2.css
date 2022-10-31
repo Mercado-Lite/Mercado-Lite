@@ -74,12 +74,14 @@ input {
     opacity: .5;
 }
 
-.custom-margin-top-2 {
-    margin-top: 2rem!important;
-}
-
 .custom-border-left {
     border-left: 2px solid var(--font-color);
+}
+
+.custom-font-display {
+    font-family: "Playfair Display", "sans-serif";
+    font-size: 64px;
+    color: var(--font-color);
 }
 
 @media (max-width: 580px) {
