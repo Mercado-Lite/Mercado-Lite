@@ -1,0 +1,75 @@
+/********************************/
+/* GENERAL CONFIG */
+/********************************/
+:root {
+  --clr-primary: #07484a;
+  --clr-background: #fdfbf8;
+  --clr-background-add-to-cart: #70908b;
+  --clr-star: #ffc107;
+  --clr-background-card: #d9d9d9;
+  --clr-cart-icon: #fdfbf8;
+
+  --fw-light: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+
+  --fs-primary-heading: 72px;
+  --fs-secondary-heading: 36px;
+  --fs-item-price: 28px;
+
+  --fs-star-icon: 40px;
+
+  /* BORDER RADIUS */
+  --br-img-box: 24px;
+  --br-add-to-cart-box: 10px;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  color: var(--clr-primary);
+  background-color: var(--clr-background);
+}
+
+/********************************/
+/* CONFIG */
+/********************************/
+.pg3-item-title {
+  font-family: "Playfair Display", sans-serif;
+}
+
+.pg3-item-img {
+  max-height: 556px;
+}
+
+/* .p3-img-box {
+  background-color: var(--clr-background-card);
+  border-radius: var(--br-img-box);
+} */
+
+.pg3-rating-star {
+  color: var(--clr-star);
+  width: 30px;
+  height: 30px;
+}
+
+/* --------------------------- */
+/* ADD TO CART BUTTON */
+.pg3-add-to-cart-btn {
+  background-color: var(--clr-background-add-to-cart);
+  color: var(--clr-cart-icon);
+  border-radius: var(--br-add-to-cart-box);
+}
+
+.pg3-add-to-cart-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.pg3-see-more-icon {
+  width: 18px;
+  height: 18px;
+}
